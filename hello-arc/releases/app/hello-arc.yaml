@@ -13,7 +13,7 @@ spec:
       chart: ./hello-arc/charts/hello-arc
   values:
     image:
-      repository: tailwindtradersregistry.azurecr.io/apps/ttwebsite
+      repository: azurearcjumpstart.azurecr.io/hello-arc-gitops
       tag: latest
     replicaCount: 3
     env:
